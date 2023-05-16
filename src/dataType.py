@@ -13,6 +13,7 @@ print(pi)
 comp = complex(10, 20)
 print(comp)
 
+# boolean type
 isRaining = False
 print(isRaining)
 
@@ -34,6 +35,8 @@ print(id(str2))
     name[0] = 'o'
 TypeError: 'str' object does not support item assignment
 """
+
+
 
 
 

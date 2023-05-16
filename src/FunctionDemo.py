@@ -11,3 +11,29 @@ def printName(name):
 
 printName("John Dee")
 
+minimum = min(101, 11, 1000) # inbuilt function
+print(minimum)
+
+def fun():
+    print("something")
+    variable =  10
+
+fun()
+#print(variable) # variable defined inside the function is destroyed when called from outside
+
+firstName="john"
+def fun():
+    print("something")
+    firstName =  "doe"
+
+fun()
+print(firstName)
+
+score = 80
+def fun():
+    print("changing score value")
+    score = 100
+
+fun()
+print(score)
+
