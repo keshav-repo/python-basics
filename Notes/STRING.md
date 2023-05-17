@@ -11,6 +11,17 @@ each element using bracket and giving 0 based index.
 5. len is used to find the length of string 
 6. in keyword used to check if a character or pharase is present in the string 
 7. 'not in' keyword is used to check if a string in not present another string
+8. Slicing - getting substring using colon. We can give either start,end index or give both. We can also use negative index here. 
+9. Built in string method \
+   i. upper() -> returns the string in upper case \
+   ii. lower() -> returns the string in lower case \
+   iii. strip() -> remove the white space if no argument is passed or the character we syecify
+10. String concatination: can be achieved using + operator 
+11. We can combine string and number using format method 
+12. Adding double quotes if there is a quotes inside the string 
+13. 
+
+
  
 
 Reference:
