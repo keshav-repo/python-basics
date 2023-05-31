@@ -47,9 +47,14 @@
 16. Diamond Problem: \
    <img height="300" src="https://media.geeksforgeeks.org/wp-content/uploads/20191222084637/Diamond1.png" width="300"/>
 17.Advantage of inheriance: a) Reusibility b) Low development time 
-18. Polymorphism: Same object exhibiting different behaviors. 
-19. 
-
+18. Polymorphism: The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
+    four ways we can achieve polymorphism in python \
+    i. Duck typing: Due to dynamic nature of python, passed argument don't need to be a subclass of a particular class. Only it has to implement thhe method \
+    ii. Method overloading \
+    iii. Operator overloading: This can be achieved by implementing corresponding method of operator. [Details here](https://docs.python.org/3/reference/datamodel.html#emulating-numeric-types) \
+    iv. method overiding 
+19. Duck Typing: Duck typing is a concept related to dynamic typing, where the type or the class of an object is less important than the methods it defines. When you use duck typing, you do not check types at all. Instead, you check for the presence of a given method or attribute.
+20. __str__(): The __str__() method returns a human-readable, or informal, string representation of an object. Default value is the pointer of object. 
 
 Question based on oops concept
 1. Create classes for Product. Consider example from amazon and flipkart ? 
