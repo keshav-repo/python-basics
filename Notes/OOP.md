@@ -47,7 +47,16 @@
 16. Diamond Problem: \
    <img height="300" src="https://media.geeksforgeeks.org/wp-content/uploads/20191222084637/Diamond1.png" width="300"/>
 17.Advantage of inheriance: a) Reusibility b) Low development time 
-18. 
-   
+18. Polymorphism: Same object exhibiting different behaviors. 
+19. 
+
+
+Question based on oops concept
+1. Create classes for Product. Consider example from amazon and flipkart ? 
+   Notes: Consider electronics, Books, Pet Supplies.  
+2. Create classes for account that is used for auth and authorisation ? 
+    Conside account in a organisation. 
+3. Design all the classes in [cardekho](https://www.cardekho.com/jeep/grand-cherokee-l-2022) website 
+
 
 Images reference from [geeksforgeeks](https://www.geeksforgeeks.org/types-of-inheritance-python/)

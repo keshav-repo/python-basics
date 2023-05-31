@@ -155,6 +155,69 @@ class D(B,A):
 d = D()
 d.fun()
 
+##### polymorphism
+
+class A:
+    def __init__(self):
+        pass
+
+a = A()
+b = A()
+
+# c = a + b
+# print(c)
+
+
+from abc import ABC , abstractmethod
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+    @abstractmethod
+    def sides(self):
+        pass
+
+
+class Rectangle(Shape):
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length*self.width
+
+    def sides(self):
+        return 4
+
+rec = Rectangle(4,3)
+print(rec.area())
+
+class Trapezium(Shape):
+    def __init__(self, a, b, h):
+        self.a = a
+        self.b = b
+        self.h = h
+
+    def area(self):
+        return ((self.a+self.b)*self.h)/2
+
+    def sides(self):
+        5
+
+trap = Trapezium(3,5,2)
+
+shapes = [rec, trap]
+for shape in shapes:
+    print("area is {}".format(shape.area()))
+print("")
+
+
+
+
+
+
+
+
 
 
 
