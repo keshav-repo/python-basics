@@ -90,15 +90,4 @@ for prof in professors:
     prof.aboutProfessor()
 
 
-# s1 = PG_Student("John","pass", "John Smith", 102, 2 )
-# s1.displayStudentInfo()
-
-# s1 = Student("John","pass", "John Smith", 102 )
-# s1.displayStudentInfo()
-
-# u1 = User("John", "pass")
-# print(u1.getUserName())
-#
-# u1.checkAuth("John", "pass")
-
 
