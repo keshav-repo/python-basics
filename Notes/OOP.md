@@ -46,7 +46,7 @@
 15. pass: The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.
 16. Diamond Problem: \
    <img height="300" src="https://media.geeksforgeeks.org/wp-content/uploads/20191222084637/Diamond1.png" width="300"/>
-17.Advantage of inheriance: a) Reusibility b) Low development time 
+17. Advantage of inheriance: a) Reusibility b) Low development time 
 18. Polymorphism: The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
     four ways we can achieve polymorphism in python \
     i. Duck typing: Due to dynamic nature of python, passed argument don't need to be a subclass of a particular class. Only it has to implement thhe method \
