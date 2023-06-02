@@ -338,7 +338,6 @@ print(product(20, 2))
 ## polymorphism using abstract method
 from abc import ABC, abstractmethod
 
-
 class Shape(ABC):
     @abstractmethod
     def area(self):
@@ -408,6 +407,18 @@ p3 = p1 + p2
 print(p3)
 p4 = p1 -p2
 print(p4)
+
+# another example of operator overloading
+class Pow:
+    def __init__(self, x):
+        self.x = x
+    def __pow__(self, power, modulo=None):
+        return self.x**power.x
+
+p5 = Pow(3)
+p6 = Pow(2)
+print( p5**p6 )
+
 
 # operator overloading built in method
 print(1+2)
